@@ -8,5 +8,6 @@ public class Arrumamalae {
     public static void main(String[] args) {
         int laisEstaComNojoooo=10000;
         double asd;
+        int baixar=20;
     }
 }
