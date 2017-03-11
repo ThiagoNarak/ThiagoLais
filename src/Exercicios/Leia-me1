@@ -1,0 +1,10 @@
+Para melhor utilizacao da pasta Exercicios, utilize o pacote ExerciciosFixacao.
+caso aja necessidade de criar novos pacotes de conteudo semelhante, aconselho utilizacao
+do modelo abaixo.
+
+1- Criar um pacote dentro de Exercicios, caso seja Atividade Pratica
+R- nome do pacote: AtivPratica0x ;
+Exemplo : AtivPratica04
+2- Criar um pacote dentro de Exercicios, caso seja desafios
+R- nome do pacote: Disfidare0x (palavra em origem latim)
+Exemplo : Disfidare03
