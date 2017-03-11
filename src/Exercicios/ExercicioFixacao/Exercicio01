@@ -1,0 +1,11 @@
+
+    1. O que é uma constante em Java?
+2. Crie 5 constantes.
+3. O que é enum?
+4. Criar um enum para os dias da semana.
+ Exemplo: domingo(1), segunda(2), terca(3)... Etc...
+ No main exiba o dia (nome e número).
+5. Criar um enum para 3 modalidades de esporte.
+ No main exiba a sua modalidade favorita.
+6. Criar um enum para os meses do ano e exibir o mês
+atual e o mês do seu aniversário.
