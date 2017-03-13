@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="56545ab4-d587-41ad-b028-9da2808e7e98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/main.java" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +73,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#645#646#0" expanded="false" />
+                <element signature="e#680#681#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +96,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#192#193#0" expanded="false" />
+                <element signature="e#243#244#0" expanded="false" />
+                <element signature="e#479#480#0" expanded="false" />
+                <element signature="e#512#513#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +141,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="laisamorimm &lt;laisamorimmenezes@hotmail.com&gt;" />
         <option value="laisAmorim" />
         <option value="thiagoRCOliveira &lt;thiago.workshop.c@gmail.com&gt;" />
         <option value="Thiago rodrigo &lt;thiago.workshop.c@gmail.com&gt;" />
@@ -762,12 +770,19 @@
       <option name="project" value="LOCAL" />
       <updated>1489351214925</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="oiii">
+      <created>1489409909479</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1489409909479</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -775,7 +790,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334384" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334384" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.49375" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
@@ -827,7 +842,8 @@
     <MESSAGE value="implementando AtivPraticaIV" />
     <MESSAGE value="implementando AtivPraticaIV lais" />
     <MESSAGE value="implementando AtivPraticaIV lais&#10;implementado main" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando AtivPraticaIV lais&#10;implementado main" />
+    <MESSAGE value="oiii" />
+    <option name="LAST_COMMIT_MESSAGE" value="oiii" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,7 +1068,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,7 +1079,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
