@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56545ab4-d587-41ad-b028-9da2808e7e98" name="Default" comment="oiii">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/LaisPratica2/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/LaisPratica2/Poligono.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/LaisPratica2/Ponto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/LaisPratica2/Quadrado.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/LaisPratica2/Retangulo.java" />
+    <list default="true" id="56545ab4-d587-41ad-b028-9da2808e7e98" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/Quadrado.java" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/Quadrado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/Retangulo.java" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/Retangulo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/main.java" afterPath="$PROJECT_DIR$/src/Exercicios/AtivPraticaIV/Lais/main.java" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -449,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489410944114</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ativ 4 finalizadaaaaa">
+      <created>1489442466987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1489442466987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +514,8 @@
     <MESSAGE value="implementando AtivPraticaIV lais" />
     <MESSAGE value="implementando AtivPraticaIV lais&#10;implementado main" />
     <MESSAGE value="oiii" />
-    <option name="LAST_COMMIT_MESSAGE" value="oiii" />
+    <MESSAGE value="ativ 4 finalizadaaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="ativ 4 finalizadaaaaa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,6 +635,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,6 +652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
