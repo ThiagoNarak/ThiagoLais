@@ -9,11 +9,11 @@ public class Main {
 
         //criar objeto
 
-        Ponto ponto1 = new Ponto(-3, -2);
+        Ponto ponto1 = new Ponto(3,3);
 
         //criando outro objeto
 
-        Ponto ponto2 = new Ponto(-5, -1);
+        Ponto ponto2 = new Ponto(6,6);
 
         //estanciando o triangulo
 
