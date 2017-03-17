@@ -32,7 +32,6 @@ public class Produto {
         listaProdutos[12]= new Produto(13,300,"pendrive");
         listaProdutos[13]= new Produto(14,400,"fonte");
         listaProdutos[14]= new Produto(15,500,"cadeira");
-        listaProdutos[15]= new Produto(16,600,"vidro");
         return listaProdutos;
     }
 
