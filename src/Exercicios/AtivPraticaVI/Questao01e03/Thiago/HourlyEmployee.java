@@ -1,9 +1,15 @@
 package Exercicios.AtivPraticaVI.Questao01e03.Thiago;
 
+import java.util.Date;
+
 /**
  * Created by thiago on 23/03/2017.
  */
 public class HourlyEmployee extends Employee{
+
+
+    //bonificação
+    private double niver;
 
     // salario por hora
     private double wage;
@@ -12,8 +18,8 @@ public class HourlyEmployee extends Employee{
     private double hours;
 
     public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber,
-                          double wage, double hours){
-        super(firstName, lastName, socialSecurityNumber);
+                          double wage, double hours, Date birthDate){
+        super(firstName, lastName, socialSecurityNumber,birthDate);
 
         // valida a remuneração
         if (wage < 0.0) {
@@ -28,6 +34,8 @@ public class HourlyEmployee extends Employee{
         this.wage = wage;
         this.hours = hours;
     }
+
+
 
     // configura remuneração
     public void setWage(){
@@ -50,6 +58,9 @@ public class HourlyEmployee extends Employee{
 
         this.hours = hours;
     }
+    public void setNiver(double niver) {
+        this.niver = niver;
+    }
 
     public double getHours(){
         return hours;
@@ -61,10 +72,10 @@ public class HourlyEmployee extends Employee{
 
         // sem hora extra
         if (getHours() <= 40 ){
-            return getWage() * getHours();
+            return (getWage() * getHours()+niver);
         }else{
             // com hora extra;
-            return 40 * getWage() + (getHours() - 40) * getHours() * 1.5;
+            return (40 * getWage() + (getHours() - 40) * getHours() * 1.5)+niver;
         }
     }
 

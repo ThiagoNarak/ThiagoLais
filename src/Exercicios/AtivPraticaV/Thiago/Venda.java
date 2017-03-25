@@ -9,7 +9,7 @@ public class Venda {
 
 
     public Venda(Produto[] listaProduto,int qtd) {
-        this.carrinho = new Produto[];
+       // this.carrinho = new Produto[];
         quantidade=new int [qtd];
 
     }

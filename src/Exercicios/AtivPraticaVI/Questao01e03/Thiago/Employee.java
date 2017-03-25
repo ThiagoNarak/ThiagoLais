@@ -12,10 +12,11 @@ public abstract class Employee {
     private String lastName;
     private String socialSecurityNumber;
 
-    public Employee(String firstName, String lastName, String socialSecurityNumber) {
+    public Employee(String firstName, String lastName, String socialSecurityNumber,Date birthDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
+        this.birthDate=birthDate;
     }
 
     public String getFirstName() {
@@ -39,4 +40,8 @@ public abstract class Employee {
     }
 
     public abstract double earnings();
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
 }

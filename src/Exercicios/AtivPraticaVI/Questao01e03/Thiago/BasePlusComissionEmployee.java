@@ -1,5 +1,7 @@
 package Exercicios.AtivPraticaVI.Questao01e03.Thiago;
 
+import java.util.Date;
+
 /**
  * Created by thiago on 23/03/2017.
  */
@@ -9,8 +11,8 @@ public class BasePlusComissionEmployee extends ComissionEmployee{
     private double baseSalary;
 
     public BasePlusComissionEmployee(String firstName, String lastName, String socialSecurityNumber,
-                                     double grossSales, double comissionRate, double baseSalary) {
-        super(firstName, lastName, socialSecurityNumber, grossSales, comissionRate);
+                                     double grossSales, double comissionRate, double baseSalary, Date birthDate) {
+        super(firstName, lastName, socialSecurityNumber, grossSales, comissionRate,birthDate);
 
         if (baseSalary < 0.0){
             throw new IllegalArgumentException("Base salary must be >= 0.0");

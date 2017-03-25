@@ -1,18 +1,20 @@
 package Exercicios.AtivPraticaVI.Questao01e03.Thiago;
 
+import java.util.Date;
+
 /**
  * Created by thiago on 23/03/2017.
  */
 public class ComissionEmployee extends Employee{
-
+    private double niver;
     private double grossSales;
     private double comissionRate;
 
     public ComissionEmployee(String firstName, String lastName, String socialSecurityNumber,
-                             double grossSales, double comissionRate) {
-        super(firstName, lastName, socialSecurityNumber);
+                             double grossSales, double comissionRate, Date birthDate) {
+        super(firstName, lastName, socialSecurityNumber,birthDate);
 
-        if (comissionRate <= 0.9 || comissionRate >= 1.0) // entrada valida
+        if (comissionRate <= 0.0 || comissionRate >= 1.0) // entrada valida
             throw new IllegalArgumentException("Comission  rate must be > 0.0 and < 1.0");
 
         if (grossSales < 0.0){
@@ -48,11 +50,14 @@ public class ComissionEmployee extends Employee{
         this.comissionRate = comissionRate;
     }
 
+    public void setNiver(double niver) {
+        this.niver = niver;
+    }
     // calcula os rendimentos
     // sobrescreve o método earnings em Employee
     @Override
     public double earnings() {
-        return getComissionRate() * getGrossSales();
+        return (getComissionRate() * getGrossSales())+niver;
     }
 
     // retorna a representação String do objeto ComissionEmployee

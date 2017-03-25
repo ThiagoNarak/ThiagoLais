@@ -17,7 +17,7 @@ public class Main {
         int codigo= entrada.nextInt();
         // ETAPA 2
         do{
-            venda = new Venda(Produto.getListaProdutos());
+          //  venda = new Venda(Produto.getListaProdutos());
 
             produto = Produto.buscar(codigo);
             if (produto==null){
@@ -27,7 +27,7 @@ public class Main {
                 System.out.printf("Encontramos o produto %s. \n",produto.getDescricaoItem());
                 valida=true;
                 System.out.println("Digite a quantidade.");
-                venda
+                //venda
             }
 
         }while(valida!=true);

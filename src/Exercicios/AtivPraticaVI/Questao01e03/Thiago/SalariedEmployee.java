@@ -1,17 +1,20 @@
 package Exercicios.AtivPraticaVI.Questao01e03.Thiago;
 
+import java.util.Date;
+
 /**
  * Created by thiago on 23/03/2017.
  */
 public class SalariedEmployee extends Employee{
-
+    private double niver;
     private double weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber,
-                            double weeklySalary){
+                            double weeklySalary, Date birthDate){
 
         // construtor da superclasse
-        super(firstName, lastName, socialSecurityNumber);
+
+        super(firstName,lastName,socialSecurityNumber,birthDate);
 
         if(weeklySalary < 0.0){
             throw new IllegalArgumentException(
@@ -21,6 +24,9 @@ public class SalariedEmployee extends Employee{
         this.weeklySalary = weeklySalary;
     }
 
+    public void setNiver(double niver) {
+        this.niver = niver;
+    }
 
     public void setWeeklySalary(double weeklySalary){
         if(weeklySalary < 0.0){
@@ -37,7 +43,7 @@ public class SalariedEmployee extends Employee{
     // sobrescreve o metodo earnings em Employee
     @Override
     public double earnings() {
-        return getWeeklySalary();
+        return getWeeklySalary()+niver;
     }
 
     @Override
